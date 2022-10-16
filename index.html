@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap</title>
+    <title> Bootstrap </title>
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container header">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container header__content">
           
           <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
           
@@ -56,9 +56,49 @@
           </div>
         </div>
       </nav>
+      
+      <div class="header__info">
+        <h1 class="header__title fw-normal text-uppercase">web applications</h1>
+        <p class="header__text">Повседневная практика.</p>
+        <a href="#" class="button button_bg-none">Спец предложение <span> &gt; </span> </a>
+      </div>
+      
     </header>
     
-    <main></main>
+    <main>
+      <div class="company">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active company__item">
+              <img src="./img/carausel.png" class="d-block" alt="...">
+              <div class="container h-100">
+                <div class="company__block h-100">
+                  <h1>О компании</h1>
+                  <p>
+                    Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br>
+                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов. <br>
+                    Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item company__item">
+              <img src="./img/carousel1.png" class="d-block" alt="...">
+              <div class="container h-100">
+                <div class="company__block h-100">
+                  <h1>О компании</h1>
+                  <p>
+                    Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br>
+                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов. <br>
+                    Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     
     
     <footer></footer>
