@@ -241,7 +241,11 @@ body {
   margin-top: 15px;
 }
 
-.title{
+
+.title{}
+
+.company__title{
+
   font-weight: 500;
   font-size: 48px;
   text-align: right;
@@ -253,6 +257,7 @@ body {
   font-weight: 500;
   line-height: 150%;
   color: #606060;
+
 }
 
 .carousel-inner{
@@ -261,4 +266,5 @@ body {
 
 .offer__height{
   height: 210px;
+
 }
