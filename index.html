@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Head meta data -->
+
+    <!--Head meta data -->
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Bootstrap </title>
-    <!-- Favicon -->
+    <title>Bootstrap </title>
+    <!-- Favicon-->
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-     <!-- Favicon -->
-     <!-- bootstrap -->
+    <!--Bootstrap-->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-     <!-- bootstrap -->
-     <!-- Style -->
+     <!--Style -->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- Style -->
+    <!--Style -->
+    <!--Media-->
+    <link rel="stylesheet" href="./css/media.css">
   </head>
   <body>
-    <!-- Header starts -->
+
+    <!--Header starts -->
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container header__content">
+          
           <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+          
           <input type="checkbox" id="menu">
           <label for="menu" class="menu">
             <div class="menu__item"></div>
@@ -36,9 +41,8 @@
               <li><a href="#" class="header__link">Что мы предлагаем</a></li>
               <li><a href="#" class="header__link">Специальное предложение </a></li>
             </ul>
-            <a href="#" class="button">Оставить заявку <span> &gt; </span> </a>
-            <div class="block"></div>
-            
+              <a href="#" class="button">Оставить заявку <span> &gt; </span> </a>
+              <div class="block"></div>
             <ul class="media list-unstyled d-flex gap-3">
               <li><a href="#" class="media__item">
                 <img src="./img/telegram.png" alt="">
@@ -59,188 +63,295 @@
           </div>
         </div>
       </nav>
-      <!-- header info start -->
       <div class="header__info">
         <h1 class="header__title fw-normal text-uppercase">web applications</h1>
         <p class="header__text">Повседневная практика.</p>
-        <a href="#" class="button button_bg-none">Спец предложение <span> &gt; </span> </a>
+        <a href="#" class="button button_bg-none">Спец предложение <span> &gt; </span></a>
       </div>
-      <!-- header info end -->
     </header>
-    <!-- Header end -->
-    
-    <!-- Main starts -->
+
+    <!--Header end -->
+
+    <!--Main starts-->
+
     <main>
-      <!-- Company section starts -->
+
+        <!--Company  section starts-->
+
       <section class="company">
-      <div class="company">
-        <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade"
+          data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          </div>
-          <div class="carousel-inner">
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
             <div class="carousel-item active company__item">
-              <img src="./img/carausel.png" class="d-block" alt="...">
-              <div class="container h-100">
-                <div class="company__block h-100">
+              <img src="./img/carausel.png" class="img-fluid" alt="...">
+              <div class="container h-100 company__info">
+                <div class="company__block h-100" >
                   <h1 class="title">О компании</h1>
-                  <h1 class="company__title">О компании</h1>
-                  <p class="company__text">
+                  <p  class="company__text">
                     Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br><br>
-                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов. <br><br>
+                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов.<br><br>
                     Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
                   </p>
                 </div>
               </div>
             </div>
             <div class="carousel-item company__item">
-              <img src="./img/carousel1.png" class="d-block" alt="...">
-              <div class="container h-100">
-                <div class="company__block h-100">
-                  <h1 class="company__title">О компании</h1>
-                  <p class="company__text">
-                    Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br><br>
-                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов. <br><br>
-                    Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
-                  </p>
-                </div>
+              <img src="./img/carusel 1.png" class="img-fluid" alt="...">
+              <div class="container  h-100 company__info">
+               <div class="company__block  h-100">
+                <h1 class="title">О компании</h1>
+                <p  class="company__text">
+                  Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br><br>
+                  Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов.<br><br>
+                  Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
+                </p>
+               </div>
               </div>
             </div>
-            <div class="carousel-item company__item">
-              <img src="./img/carausel.png" class="d-block" alt="...">
-              <div class="container h-100">
-                <div class="company__block h-100">
-                  <h1 class="company__title">О компании</h1>
-                  <p class="company__text">
+            <div class="carousel-item active  company__item">
+              <img src="./img/carausel.png" class="img-fluid" alt="...">
+              <div class="container h-100 company__info">
+                <div class="company__block h-100 " >
+                  <h1 class="title">О компании</h1>
+                  <p  class="company__text">
                     Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br><br>
-                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов. <br><br>
+                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов.<br><br>
                     Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
                   </p>
                 </div>
+               
               </div>
             </div>
-            <div class="carousel-item company__item">
-              <img src="./img/carousel1.png" class="d-block" alt="...">
-              <div class="container h-100">
-                <div class="company__block h-100">
-                  <h1 class="company__title">О компании</h1>
-                  <p class="company__text">
-                    Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br><br>
-                    Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов. <br><br>
-                    Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
-                  </p>
-                </div>
+            <div class="carousel-item active company__item">
+              <img src="./img/carusel 1.png" class="img-fluid" alt="...">
+              <div class="container  h-100 company__info">
+               <div class="company__block  h-100 ">
+                <h1 class="title">О компании</h1>
+                <p class="company__text">
+                  Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете. <br><br>
+                  Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов. <br><br>
+                  Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.
+                </p>
+               </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Company section end -->
-      
-      <!-- Portfolio section starts -->
+
+      <!--Company  section end-->
+
+     <!--Portfolio section starts--> 
+
       <section class="portfolio">
-        <h2 class="title title_center text-center mt-5 mb-4"> Портфолио </h2>
+        <h2 class="title title_center text-center mt-5 mb-4">Портфолио</h2>
         <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          
+
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          
+
           <div class="container">
-            <div class="carousel-inner ">
-                <img src="./img/portfolio.png" class="carousel-item active h-100 w-100 " alt="...">
-                <img src="./img/portfolio1.png" class="carousel-item h-100 w-100 " alt="...">
-                <img src="./img/portfolioi2.png" class="carousel-item h-100 w-100 " alt="...">
+            <div class="carousel-inner">
+                <img src="./img/portfolio.png" class="carousel-item active h-100 w-100" alt="...">
+                <img src="./img/portfolio 1.png" class="carousel-item h-100 w-100" alt="...">
+                <img src="./img/portfolio 2.png" class="carousel-item h-100 w-100" alt="...">
             </div>
           </div>
         </div>
       </section>
-      <!-- Portfolio section end -->
-      
-      <!-- Что мы предлагаем -->
-      
-      <section class="offer vh-100 bg-dark pt-5">
-        <h2 class="title title_center text-center  mb-4 text-white"> Что мы предлагаем </h2>
+      <!--Portfolio section ends--> 
+
+       <!--Что мы предлагаем--> 
+
+       <section class="offer vh-100 bg-dark pt-5">
+        <h2 class="title title_center text-center mb-4 text-white">Что мы предлагаем</h2>
         <div class="container mt-5">
           <div class="row offer__height text-white">
-            <div class="col d-flex  border-1 border-white border-bottom border-end flex-column align-items-center justify-content-center">
-              <img src="./img/thump.png" alt="">
-              <p class="text-white text-center mt-4"> Высокий уровень исполнения  </p>
+            <div class="col d-flex border-1 border-white border-bottom border-end flex-column align-items-center justify-content-center">
+              <img src="./img/like.png" alt="">
+              <p class="text-white text-center mt-4 ">Высокий уровень исполнения</p>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center">
-              <img src="./img/start.png" alt="">
-              <p class="text-white text-center mt-4"> Гарантируем качество работы  </p>
+              <img src="./img/stars.png" alt="">
+              <p class="text-white text-center mt-4">Гарантируем качество работы</p>
             </div>
-            <div class="col d-flex flex-column border-start border-white
-            border-end align-items-center justify-content-center">
+            <div class="col border-start border-white border-end d-flex flex-column align-items-center justify-content-center">
               <img src="./img/time.png" alt="">
-              <p class="text-white text-center mt-4"> Выполним работу быстро  </p>
+              <p class=" text-white text-center mt-4">Выполним работу быстро</p>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center">
-              <img src="./img/message.png" alt="">
-              <p class="text-white text-center mt-4"> Обеспечим поток заявок  </p>
+              <img src="./img/messege.png" alt="">
+              <p class="text-wite text-center mt-4">Обеспечим поток заявок</p>
             </div>
             <div class="col border-start border-bottom border-white d-flex flex-column align-items-center justify-content-center">
-              <img src="./img/setting.png" alt="">
-              <p class="text-white text-center mt-4"> Автоматизируем работу   </p>
+              <img src="./img/robot.png" alt="">
+              <p class="text-white text-center mt-4">Автоматизируем работу</p>
             </div>
           </div>
           <div class="row offer__height text-white">
-            <div class="col d-flex flex-column align-items-center justify-content-center">
-              <img src="./img/pen.png" alt="">
-              <p class="text-white text-center mt-4"> Разработаем уникальный дизайн   </p>
+            <div class="col border-bottom border-white d-flex flex-column align-items-center justify-content-center">
+              <img src="./img/pens.png" alt="">
+              <p class="text-white text-center mt-4">Разработаем уникальный дизайн</p>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center border-white border border-1">
               <img src="./img/code.png" alt="">
-              <p class="text-white text-center mt-4"> Напишем чистый код   </p>
+              <p class="text-white text-center mt-4">Напишем чистый код</p>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center border-white border border-1">
               <img src="./img/adds.png" alt="">
-              <p class="text-white text-center mt-4"> Контекстная реклама  </p>
+              <p class="text-white text-center mt-4">Контекстная реклама</p>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center border-white border border-1">
               <img src="./img/note.png" alt="">
-              <p class="text-white text-center mt-4"> Третированная реклама   </p>
+              <p class="text-white text-center mt-4">Третированная реклама</p>
             </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center">
+            <div class="col  border-bottom border-white d-flex flex-column align-items-center justify-content-center">
               <img src="./img/seo.png" alt="">
-              <p class="text-white text-center mt-4"> SEO продвижение </p>
+              <p class="text-white text-center mt-4">SEO продвижение</p>
             </div>
           </div>
           <div class="row offer__height text-white">
-            <div class="border-top border-end border-white col d-flex flex-column align-items-center justify-content-center"></div>
             <div class="col d-flex flex-column align-items-center justify-content-center">
-              <img src="./img/robot.png" alt="">
-              <p class="text-white text-center mt-4"> Продвижение в социальных сетях  </p>
+
             </div>
-            <div class=" border-1 border-white border-start border-end col d-flex flex-column align-items-center justify-content-center">
-              <a href="#" class=" text-white border border-white py-3 px-5 text-decoration-none">Подробнее <span class="ms-3"> &gt; </span></a>
+            <div class="col border-start border-white d-flex flex-column align-items-center justify-content-center">
+              <img src="./img/robocop.png" alt="">
+              <p class="text-white text-center mt-4">Продвижение в социальных сетях</p>
             </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center">
-              <img src="./img/start.png" alt="">
-              <p class="text-white text-center mt-4"> Высокий уровень исполнения   </p>
+            <div class="col border-start border-white  d-flex flex-column align-items-center justify-content-center">
+              <a href="#" class="m text-white border border-white py-3 px-5 text-decoration-none">Подробнее <span class="ms-3"> &gt; </span></a>
             </div>
-            <div class=" border-top border-start border-white col d-flex flex-column align-items-center justify-content-center"></div>
+            <div class="col border-start border-white  d-flex flex-column align-items-center justify-content-center">
+              <img src="./img/stars.png" alt="">
+              <p class="text-white text-center mt-4">Высокий уровень исполнения</p>
+            </div>
+            <div class="col border-start border-white  d-flex flex-column align-items-center justify-content-center">
+
+            </div>
           </div>
         </div>
-        
-      </section>
-      
-      <!-- Что мы предлагаем -->
-      
-      
+       </section>
+       <!--Что мы предлагаем--> 
+
+       <!--Наши преимущества-->
+
+        <div class="our__content">
+          <div class="our__info">
+            <h1>Наши преимущества</h1>
+          </div>
+          <div class="our__info2">
+            <h5>Сделаем адаптивный дизайн, под любой вид <br> устройств</h5>
+          </div>
+          <div class="our__info3">
+            <h5>Настроим все возможные способы обратной <br> связи. Заявки на почту, подключим онлайн <br> консультанта, настроим телефонный звон с сайта, <br> подключим Whatsapp к сайту</h5>
+           </div>
+          <div class="our__info4">
+            <h5>Установим на сайт счетчики аналитики и <br> настроим возможность отслеживать результаты <br> прямо с вашего мобильного телефона</h5>
+          </div>
+          <div class="our__info5">
+           <h5>Проведем анализ вашей сферы и конкурентов, <br> предложим лучшие инструменты для <br> продвижения в интернете</h5>
+          </div>
+
+          <div class="our__content2">
+            <div>
+              <img class="sms" src="./img/sms.png" alt="">
+            </div>
+            <div> 
+              <img class="komputer" src="./img/komputer.png" alt="">
+            </div>
+            <div>
+              <img class="mobil" src="./img/mobil.png" alt="">
+            </div>
+            <div>
+              <img class="reyting" src="./img/reyting.png" alt="">
+            </div>
+          </div>
+        </div>
+
+         <!--Наши преимущества-->
+
+       <!--Requirement start-->
+
+        <section class="requirement">
+          <div class="container requirement__content">
+              <div class="requirement__left">
+                <h4 class="zaya">Заявка</h4>
+                <form class="form">
+                  <p>
+                    <label for="">Ваше имя</label>
+                    <input type="text">
+                  </p>
+                  <p>
+                    <label for="">Ваш Email</label>
+                    <input type="text">
+                  </p>
+                  <p>
+                    <label for="">Сообщение</label>
+                    <textarea cols="30" rows="10"></textarea>
+                  </p>
+                </form>
+              </div>
+              <div class="requirement__right d-flex gap-2">
+                <h4 class="spes">Спец предложения </h4>
+                <div class="requirement__item ps-3 d-flex flex-column justify-content-center">
+                  <div class="circle"></div>
+                  <h5 class="text-white mt-5">Landing Page</h5>
+                  <p class="text-white p-0">продающая посадочная страница. </p>
+                  <p class="text-white p-0">150 000 ₸</p>
+                  <p class="text-white p-0">150 000 ₸</p>
+                </div>
+                <div class="requirement__item ps-3 d-flex flex-column justify-content-center">
+                  <div class="circle"></div>
+                  <h5 class="text-white mt-5">Landing Page</h5>
+                  <p class="text-white p-0">продающая посадочная страница. </p>
+                  <p class="text-white p-0">150 000 ₸</p>
+                  <p class="text-white p-0">150 000 ₸</p>
+                </div>
+                <div class="requirement__item ps-3 d-flex flex-column justify-content-center">
+                  <div class="circle"></div>
+                  <h5 class="text-white mt-5">Landing Page</h5>
+                  <p class="text-white p-0">продающая посадочная страница. </p>
+                  <p class="text-white p-0">150 000 ₸</p>
+                  <p class="text-white p-0">150 000 ₸</p>
+                </div>
+              </div>
+          </div>
+        </section>
+
+       <!--Requirement end-->
+
     </main>
-    <!-- Main end -->
     
-    <footer></footer>
+     <!--Main end-->
+
+      <!--Footer starts-->
     
-    
+    <footer class="footer__info">
+       
+      <div class="footer__text">
+        <ul>
+          <li>Пункт</li>
+          <li>Пункт</li>
+          <li>Пункт</li>
+          <li>Пункт</li>
+        </ul>
+      </div>
+      
+    </footer>
+
+     <!--Footer ends-->
     
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
